@@ -9,11 +9,20 @@ import java.util.Scanner;
 public class Triangle{
     private String name;
     private double base, height;
+    /**
+     * Constructs triangle by setting name to Unknown, base to 0, and height to 0
+     */
     public Triangle(){
         name = "Unknown";
         base = 0;
         height = 0;
     }
+    /**
+     * Constructs triangle using custom paramets for name, base, and height
+     * @param inName Desired name of triangle
+     * @param inBase Desired base of triangle
+     * @param inHeight Desired height of triangle
+     */
     public Triangle(String inName, double inBase, double inHeight){
         name = inName;
         base = inBase;
